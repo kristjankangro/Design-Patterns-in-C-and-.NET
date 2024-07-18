@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Detecting Decorator Cycles", "Detecting Decorator Cycles\Detecting Decorator Cycles.csproj", "{506B5AB1-E399-4A93-AD46-44129A1AD33C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{506B5AB1-E399-4A93-AD46-44129A1AD33C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{506B5AB1-E399-4A93-AD46-44129A1AD33C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{506B5AB1-E399-4A93-AD46-44129A1AD33C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{506B5AB1-E399-4A93-AD46-44129A1AD33C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
