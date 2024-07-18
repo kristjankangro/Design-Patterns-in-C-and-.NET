@@ -1,15 +1,21 @@
-namespace _63.Models;
+using System.Text;
 
-public class ColoredShape : Shape
+public class ColoredShape : ShapeDecorator<ColoredShape, CyclesAllowedPolicy>
 {
-    private string color;
-    private Shape shape;
+    private readonly string color;
 
-    public ColoredShape(Shape shape, string color)
+    public ColoredShape(Shape shape, string color) : base(shape)
     {
         this.color = color;
-        this.shape = shape;
     }
 
-    public override string AsString() => $"{shape.AsString()} has color {color}";
+    public override string AsString()
+    {
+        var sb = new StringBuilder($"{shape.AsString()}");
+
+        if (policy.ApplicationAllowed(types[0], types.Skip(1).ToList()))
+            sb.Append($" has the color {color}");
+
+        return sb.ToString();
+    }
 }
