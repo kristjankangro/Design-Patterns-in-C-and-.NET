@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Detecting Decorator Cycles", "Detecting Decorator Cycles\Detecting Decorator Cycles.csproj", "{506B5AB1-E399-4A93-AD46-44129A1AD33C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_64 Detecting Decorator Cycles", "_64 Detecting Decorator Cycles\_64 Detecting Decorator Cycles.csproj", "{506B5AB1-E399-4A93-AD46-44129A1AD33C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
