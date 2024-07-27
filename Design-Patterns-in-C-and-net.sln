@@ -1,10 +1,12 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_64 Detecting Decorator Cycles", "_64 Detecting Decorator Cycles\_64 Detecting Decorator Cycles.csproj", "{506B5AB1-E399-4A93-AD46-44129A1AD33C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Detecting Decorator Cycles", "Detecting Decorator Cycles\Detecting Decorator Cycles.csproj", "{506B5AB1-E399-4A93-AD46-44129A1AD33C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Adapter", "Adapter", "{05E2F3A4-8C4F-4599-AB58-D8F002FDF9D8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_45VectorRaster", "_45VectorRaster\_45VectorRaster.csproj", "{5C82E531-A6E7-41DF-A085-24458E08F4D5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adapter-VectorRaster", "Adapter-VectorRaster\Adapter-VectorRaster.csproj", "{5C82E531-A6E7-41DF-A085-24458E08F4D5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Decorator", "Decorator", "{6E19F1DB-D1E9-4143-8279-88BDC7439CD9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,5 +25,6 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{5C82E531-A6E7-41DF-A085-24458E08F4D5} = {05E2F3A4-8C4F-4599-AB58-D8F002FDF9D8}
+		{506B5AB1-E399-4A93-AD46-44129A1AD33C} = {6E19F1DB-D1E9-4143-8279-88BDC7439CD9}
 	EndGlobalSection
 EndGlobal
