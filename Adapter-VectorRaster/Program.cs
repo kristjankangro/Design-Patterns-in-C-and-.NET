@@ -19,6 +19,12 @@ public class Demo
 
     public static void Run(string[] args)
     {
+        Draw();
+        Draw();
+    }
+
+    private static void Draw()
+    {
         foreach (var vectorObject in vectorObjects)
         {
             foreach (var line in vectorObject)
